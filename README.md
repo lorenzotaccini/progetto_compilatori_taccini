@@ -8,7 +8,7 @@ Oltre alle opportune (e già note) modifiche alla grammatica effettuate nei file
 
 ## Produzione del codice
 
-#### Grammatica di primo livello
+### Grammatica di primo livello
 
 Si introducono nella grammatica i meccanismi di assegnamento
 ```
@@ -24,7 +24,7 @@ global var <nome_variabile>;
 - modifica del metodo _codegen_ della classe ```VariableExprAST``` per gestire lo scope delle variabili globali
 - modifica della classe ```BlockExpASt``` in ```BlockAST```, aggiunta la possibilità di avere \<statement> multipli all'interno del blocco
 
-#### Grammatica di secondo livello
+### Grammatica di secondo livello
 
 Si introducono i costrutti ```if```
 ```
@@ -50,7 +50,7 @@ for (<initexp>;<espressione condizionale>;<assegnamento>) <statement>
     - introdotti simboli di pre/post incremento nella grammatica
     - introdotta la possibilità di rappresentare numeri negativi
 
-#### Grammatica di terzo livello
+### Grammatica di terzo livello
 
 Si introducono gli operatori relazionali ```and```,```or``` 
 ```
@@ -62,7 +62,7 @@ not <espressione>
 ```
 attraverso una modifica della (già presente) funzione ```codegen()``` della classe ```BinaryExprAST```.
 
-#### Grammatica di quarto livello
+### Grammatica di quarto livello
 
 Aggiunta la possibilità di operare su strutture dati di tipo vettoriale (**Arrays**).
 
@@ -87,7 +87,7 @@ Aggiunta la possibilità di operare su strutture dati di tipo vettoriale (**Arra
 
 
 
-##Esecuzione e compilazione
+## Esecuzione e compilazione
 
 - Per la creazione del compilatore eseguibile ```kcomp``` e di tutti i file necessari:
     ```shell
