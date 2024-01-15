@@ -26,11 +26,11 @@ global var <nome_variabile>;
 
 #### Grammatica di secondo livello
 
-Si introducono i costrutti if
+Si introducono i costrutti ```if```
 ```
 if (<espressione condizionale>) <statement> [else <statement>]
 ```
-e for
+e ```for```
 ```
 for (<initexp>;<espressione condizionale>;<assegnamento>) <statement>
 ```
