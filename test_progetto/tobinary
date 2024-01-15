@@ -1,0 +1,7 @@
+#!/bin/bash
+
+fn=${1%.*}
+
+llvm-as-17 $1
+llc-17 ${fn}.bc
+as -o ${fn}.o ${fn}.s
