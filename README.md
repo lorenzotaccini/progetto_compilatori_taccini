@@ -84,6 +84,7 @@ Aggiunta la possibilità di operare su strutture dati di tipo vettoriale (**Arra
 - creazione della classe ```ArrayBindingAST``` per gestire la dichiarazione di array e l'eventuale inizializzazione
 - modifica della classe ```AssignmentExprAST``` per gestire l'assegnamento delle singole celle di array
 - modifica della classe ```VariableExprAST``` per l'accesso a singole celle di array
+- modifica della classe ```GlobalVariableAST``` per poter dichiarare array con scope globale
 
 
 
